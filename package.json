@@ -1,0 +1,21 @@
+{
+  "name": "compostlab",
+  "version": "1.0.0",
+  "description": "COMPOSTLAB",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "JUAN DAVID - WASHINGTON DAVID",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22"
+  }
+}
